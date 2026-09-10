@@ -2,7 +2,7 @@
 
 Aplicação web interativa desenvolvida como Atividade Prática da disciplina **GAC116 - Programação Web** na Universidade Federal de Lavras (UFLA).
 
-🔗 **Link do Jogo Online (GitHub Pages):** [https://github.com/diovaniMangiajr/atividade-prog-web-batalha-naval](https://github.com/diovaniMangiajr/atividade-prog-web-batalha-naval)
+🔗 **Link do Jogo Online (GitHub Pages):** [https://diovanimangiajr.github.io/atividade-prog-web-batalha-naval/](https://diovanimangiajr.github.io/atividade-prog-web-batalha-naval/)
 
 ---
 
