@@ -1,0 +1,62 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Grid 10x10 com 10 colunas de 32px */
+.tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(10, 32px);
+    grid-template-rows: repeat(10, 32px);
+    gap: 2px;
+    background-color: #adb5bd;
+    padding: 6px;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+/* Estilo base de cada célula */
+.celula {
+    width: 32px;
+    height: 32px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    user-select: none;
+    transition: background-color 0.2s ease;
+}
+
+/* Tabuleiro inimigo interativo */
+#tabuleiro-computador .celula {
+    cursor: pointer;
+}
+
+#tabuleiro-computador .celula:hover {
+    background-color: #cfe2ff;
+}
+
+/* Estados das células */
+.navio-proprio {
+    background-color: #495057 !important; /* Barco visível no tabuleiro do jogador */
+}
+
+.tiro-agua {
+    background-color: #0dcaf0 !important; /* Tiro na água */
+    color: #fff;
+    cursor: not-allowed !important;
+}
+
+.tiro-acerto {
+    background-color: #dc3545 !important; /* Navio atingido */
+    color: #fff;
+    cursor: not-allowed !important;
+}
